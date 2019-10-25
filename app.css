@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap');
+
+*
+{
+    font-family: 'Open Sans', sans-serif;
+}
+
+body
+{
+    background-color: #d4d4d4
+}
+
+#app header h1
+{
+    font-size: 15px;
+    color: #eee;
+    margin: 0;
+}
+
+#app form label, #app form button
+{
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+#app form input
+{
+    font-weight: 600;
+}
+
+.lyric
+{
+    line-height: 40px
+}
+
+form, .lyric
+{
+    background-color: #fff ;
+    padding: 1em;
+    border-radius: 2px;
+    box-shadow: 0 1px 2px #a5a5a5;
+}
