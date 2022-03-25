@@ -1,1 +1,0 @@
-const LyricClass = new Lyric

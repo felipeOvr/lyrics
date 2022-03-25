@@ -12,4 +12,10 @@ Hora de dar o play na musica que te faz relaxar :). Joga esse app no browser, pe
 <br>
 <br>
 
-<img src="./screenshots/app.png" />
+# Primeira Versão
+<img src="./assets/img/screenshots/app.png" />
+
+
+# Segunda Versão em 25/03/2022
+<img src="./assets/img/screenshots/v2-1.png" />
+<img src="./assets/img/screenshots/v2-2.png" />

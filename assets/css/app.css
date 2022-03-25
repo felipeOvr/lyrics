@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+*
+{
+    font-family: 'IBM Plex Mono', monospace;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: #393E41;
+    position: relative;
+}
+
+#app
+{
+    border-radius: 30px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#search-button
+{
+    background: linear-gradient(29deg, rgb(109, 178, 120) 0%, rgb(125, 176, 174) 32%, rgb(91, 94, 192) 100%);
+    padding: 10px;
+    display: block;
+    border-radius: 2rem;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    outline: none;
+    margin: 2rem auto 0;
+    width: 500px;
+    border: none;
+}
+
+#search-button:hover
+{
+    opacity: .8;
+}
+
+#letter-container
+{
+    text-align: center;
+    background-color: #f7f7f7;
+    padding: 15px;
+    width: 900px;
+    margin: 0 auto;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    transition: all 1.2s;
+    max-height: 80vh;
+    overflow-y: scroll;
+}
+
+#letter-container::-webkit-scrollbar {
+	display: none;
+}
+
+#letter-container p
+{
+    line-height: 25px;
+}
+
+@media (max-width: 700px) {
+    #search-button, #letter-container
+    {
+        width: 90%;
+    }
+}
